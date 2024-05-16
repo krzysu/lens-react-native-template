@@ -6,7 +6,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 ## Step 0: Define environment variables
 
-TBD
+Start by renaming the `.env.example` file to `.env` and then populate it with the necessary values:
+
+- `WALLET_CONNECT_PROJECT_ID` - This is the Project ID for WalletConnect. You can create a free Project ID at [WalletConnect Cloud](https://cloud.walletconnect.com/sign-in).
 
 ## Step 1: Start the Metro Server
 
