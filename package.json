@@ -6,12 +6,23 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "pod:install": "cd ios && bundle exec pod install && cd ..",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/shims": "^5.7.0",
+    "@lens-protocol/metadata": "latest",
+    "@lens-protocol/react-native": "latest",
+    "@walletconnect/modal-react-native": "^1.1.0",
+    "@walletconnect/react-native-compat": "^2.12.2",
     "react": "^18.3.1",
-    "react-native": "^0.74.1"
+    "react-native": "^0.74.1",
+    "react-native-config": "^1.5.1",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-mmkv": "~2.11.0",
+    "react-native-modal": "^13.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5",
